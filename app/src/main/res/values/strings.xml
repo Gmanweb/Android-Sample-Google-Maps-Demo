@@ -4,5 +4,6 @@
     <string name="app_name">Google Maps Demo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="gapi_key">AIzaSyAhhCeMVrhBM5eWJB14VnDW0lAV-PW6Jn0</string>
 
 </resources>
