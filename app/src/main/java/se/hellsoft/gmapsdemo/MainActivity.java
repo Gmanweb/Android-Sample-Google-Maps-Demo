@@ -83,7 +83,7 @@ public class MainActivity extends Activity implements GoogleMap.OnMapLongClickLi
         PendingIntent pendingIntent
                 = PendingIntent
                 .getBroadcast(this, 0, showGeofenceToast, 0);
-        mLocationClient.addGeofences(geofenceList, pendingIntent, 
+        mLocationClient.addGeofences(geofenceList, pendingIntent,
                 new LocationClient.OnAddGeofencesResultListener() {
             @Override
             public void onAddGeofencesResult(int i, String[] strings) {

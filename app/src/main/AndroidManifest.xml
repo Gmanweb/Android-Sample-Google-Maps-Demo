@@ -47,6 +47,13 @@
                 <action android:name="se.hellsoft.gmapsdemo.GEOFENCE_TOAST" />
             </intent-filter>
         </receiver>
+
+        <provider
+            android:name="se.hellsoft.gmapsdemo.MyGeofenceStore"
+            android:authorities="se.hellsoft.gmapsdemo.provider"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
     </application>
 
 </manifest>
